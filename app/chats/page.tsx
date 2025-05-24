@@ -3,7 +3,7 @@
 import { useAuth } from "@/utils/AuthProvider";
 import { useEffect, useRef, useState } from "react";
 import { ChatService, Contact as ContactType, Message as MessageType } from "@/utils/chatService";
-import Rightbar from "@/components/Rightbar";
+import SidebarExtensionProps from "@/components/Rightbar";
 import { ContactsList } from "@/components/chat/ContactsList";
 import { ChatArea } from "@/components/chat/ChatArea";
 import { FiArrowLeft } from "react-icons/fi";
@@ -330,7 +330,7 @@ const ChatsPage: React.FC = () => {
 
       {selectedContact && (
         <div className={`${showContactsOnMobile ? 'hidden md:block' : 'block'} h-full overflow-hidden`}>
-          <Rightbar contact={selectedContact} />
+          <SidebarExtensionProps selectedContact={selectedContact} />
         </div>
       )}
     </div>
