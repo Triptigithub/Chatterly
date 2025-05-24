@@ -102,4 +102,4 @@ Table	Purpose
 profiles-	Stores user profile data like usernames and avatars
 messages-	Stores messages with metadata like status
 contacts- Manages connections between users
->>>>>>> 0899028 (Initial commit)
+
