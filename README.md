@@ -1,12 +1,7 @@
 # Chatterly
-
-
 **Chatterly** is a responsive and modern chat application built with **Next.js**, **React**, and **Supabase**. It supports real-time messaging, user authentication, contact management, and seamless conversation history.
 
----
-
 ## 🚀 Overview
-
 Chatterly delivers a smooth messaging experience with a focus on real-time communication and clean UI. It’s ideal for developers exploring Supabase and full-stack real-time applications with Next.js.
 
 ---
@@ -62,13 +57,7 @@ Chatterly delivers a smooth messaging experience with a focus on real-time commu
 ├── supabase-schema.sql # SQL schema for initializing the database
 └── ... # Additional configuration files
 
-yaml
-Copy
-Edit
 ---
-
-## 🧑‍💻 Getting Started
-
 ### 📋 Prerequisites
 
 - Node.js (v18+)
