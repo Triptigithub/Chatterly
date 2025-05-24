@@ -1,11 +1,6 @@
 # Chatterly
 
 
-<<<<<<< HEAD
-# Chatterly
-=======
-# 🟢 Chatterly – Real-Time Chat App
-
 **Chatterly** is a responsive and modern chat application built with **Next.js**, **React**, and **Supabase**. It supports real-time messaging, user authentication, contact management, and seamless conversation history.
 
 ---
