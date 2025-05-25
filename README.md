@@ -49,25 +49,25 @@ Chatterly delivers a smooth messaging experience with a focus on real-time commu
 ### ⚙️ Setup Instructions
 
 #### 1. Clone the Repository
--git clone https://github.com/yourusername/periskope.git
--cd periskope
+- git clone https://github.com/yourusername/periskope.git
+- cd periskope
 #### 2. Install Dependencies
-npm install
+- npm install
 #### 3. Set Up Environment Variables
--Create a .env.local file in the root directory:
--NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
--NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+- Create a .env.local file in the root directory:
+- NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+- NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 #### 4. Configure Supabase
--Create a new project at https://supabase.io
--Run supabase-schema.sql in the Supabase SQL editor
--Make dummy file for contact and profile
+- Create a new project at https://supabase.io
+- Run supabase-schema.sql in the Supabase SQL editor
+- Make dummy file for contact and profile
 
 #### 5. Run Development Server
--npm run dev
--Visit: http://localhost:3000
+- npm run dev
+- Visit: http://localhost:3000
 
 ###🗃️ Database Schema
--profiles-	Stores user profile data like usernames and avatars
--messages-	Stores messages with metadata like status
--contacts- Manages connections between users
+- profiles-	Stores user profile data like usernames and avatars
+- messages-	Stores messages with metadata like status
+- contacts- Manages connections between users
 
